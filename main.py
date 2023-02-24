@@ -1,13 +1,12 @@
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 
+
 start1 = 1
 start2 = 2
 start3 = 10
-
 end1 = 5
 end2 = 2
 end3 = 10
-
 start = start1 * 60 * 60 + start2 * 60 + start3
 end = end1 * 60 * 60 + end2 * 60 + end3
 
